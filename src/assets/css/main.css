@@ -189,7 +189,7 @@ p {
 /* social links */
 .social-links {
   margin-top: 2rem;
-  width: 15rem;
+  width: 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -443,7 +443,7 @@ Hero
 .hero-img {
   display: none;
 }
-.hero-info h4 {
+.hero-info h3 {
   color: var(--clr-grey-5);
 }
 .hero-icons {
@@ -466,10 +466,16 @@ Hero
   .hero-center {
     grid-template-columns: repeat(12, 1fr);
   }
-
+  .hero .name h1 {
+    letter-spacing: 0;
+  }
+  .hero .name span {
+    color: var(--clr-primary-5);
+  }
   .hero h4 {
     font-size: 0.85rem;
   }
+
   .hero-info {
     grid-row: 1/1;
     grid-column: 1 / span 8;
@@ -477,7 +483,7 @@ Hero
   .hero-img {
     display: block;
     grid-row: 1/1;
-    grid-column: 7/-1;
+    grid-column: 8/-1;
   }
   .hero-img-svg {
     width: 100%;

@@ -1,23 +1,24 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaLaptopCode, FaSketch, FaAndroid, FaMobileAlt } from "react-icons/fa"
+import { MdDraw } from "react-icons/md"
 const services = [
   {
     id: 1,
-    icon: <FaCode className="service-icon" />,
+    icon: <FaLaptopCode className="service-icon" />,
     title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `Building fast, responsive and secure websites from start to completion.`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
+    icon: <MdDraw className="service-icon" />,
     title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `Creating the design and layout of websites, or updating an already existing one.`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
+    icon: <FaMobileAlt className="service-icon" />,
     title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `Creating easy to use apps, looking after the overall style (UI) and the general look and feel (UX).`,
   },
 ]
 

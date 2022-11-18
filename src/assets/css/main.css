@@ -231,6 +231,12 @@ Navbar
 .nav-header img {
   margin-bottom: 0.375rem;
 }
+.logo {
+  letter-spacing: 0;
+}
+.logo span {
+  color: var(--clr-primary-5);
+}
 .toggle-btn {
   font-size: 2rem;
   background: transparent;

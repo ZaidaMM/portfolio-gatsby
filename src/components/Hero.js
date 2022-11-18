@@ -11,7 +11,10 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <h1 className="name">Zaida Montano</h1>
-            <h3>Software Developer</h3>
+            <h4>
+              Software Developer building websites and web applications leading
+              to success
+            </h4>
             <Link className="btn" href="/contact">
               contact me
             </Link>

@@ -443,7 +443,7 @@ Hero
 .hero-img {
   display: none;
 }
-.hero-info h3 {
+.hero-info h4 {
   color: var(--clr-grey-5);
 }
 .hero-icons {
@@ -478,7 +478,7 @@ Hero
 
   .hero-info {
     grid-row: 1/1;
-    grid-column: 1 / span 8;
+    grid-column: 1 / span 6;
   }
   .hero-img {
     display: block;
@@ -499,7 +499,7 @@ Hero
   }
 
   .hero-info {
-    grid-column: 1 / span 8;
+    grid-column: 1 / span 6;
   }
 
   .hero h4 {

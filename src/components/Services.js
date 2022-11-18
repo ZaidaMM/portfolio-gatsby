@@ -1,6 +1,7 @@
 import React from "react"
+import Title from "./Title"
 
 const Services = () => {
-  return <div>Services</div>
+  return <Title title="Services" />
 }
 export default Services

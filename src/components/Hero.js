@@ -15,7 +15,7 @@ const Hero = () => {
               Software Developer building websites and web applications leading
               to success
             </h4>
-            <Link className="btn" href="/contact">
+            <Link className="btn" to="/contact/">
               contact me
             </Link>
             <div className="social-links">

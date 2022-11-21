@@ -791,21 +791,23 @@ Footer
 .footer {
   height: 9rem;
   background: #222;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  display: grid;
+  justify-content: center;
   place-items: center;
 }
-.footer h4 {
-  margin-top: 0.5rem;
+.footer h5 {
+  /* margin-top: 0.5rem; */
   color: var(--clr-white);
   font-weight: normal;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
-.footer h4 span {
+.footer h5 span {
   color: var(--clr-primary-5);
 }
 .footer-links {
-  margin: 0 auto 1rem auto;
+  margin: 0.75rem auto;
 }
 .footer .social-link {
   color: var(--clr-white);

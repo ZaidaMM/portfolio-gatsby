@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 const Projects = ({ projects, showLink, title }) => {
   // console.log(props)
   return (
-    <section className="section project">
+    <section className="section projects">
       <Title title={title} />
       <div className="section-center projects-center">
         {projects.map((project, index) => {

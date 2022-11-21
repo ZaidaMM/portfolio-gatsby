@@ -13,7 +13,7 @@ const Project = ({
   image,
   slug,
 }) => {
-  console.log(stack)
+  // console.log(stack)
   return (
     <article className="project">
       <GatsbyImage

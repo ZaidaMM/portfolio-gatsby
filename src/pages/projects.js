@@ -13,7 +13,6 @@ const ProjectsPage = () => {
     <>
       <main className="projects-page">
         <Projects title="All Projects" projects={projects} />
-        {/* PROJECTS */}
       </main>
     </>
   )

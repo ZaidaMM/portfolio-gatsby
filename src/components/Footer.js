@@ -14,7 +14,7 @@ const Footer = () => {
         })}
       </div>
       <h5>
-        Copyright &copy; {new Date().getFullYear()} <span>Zaida Montano</span>
+        Copyright &copy; {new Date().getFullYear()} <span>Zaida Montano</span>{" "}
         All rights reserved
       </h5>
     </footer>

@@ -41,7 +41,7 @@ const query = graphql`
         slug
         image {
           localFile {
-            childrenImageSharp {
+            childImageSharp {
               gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
             }
           }

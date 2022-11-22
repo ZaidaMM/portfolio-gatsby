@@ -4,12 +4,11 @@ import socialLinks from "../constants/social_links"
 import { Link } from "gatsby"
 import { FaTimes } from "react-icons/fa"
 
-const Sidebar = () => {
-  const isOpen = true
+const Sidebar = ({ toggleSidebar, isOpen }) => {
   return (
     <>
       <aside className={isOpen ? "sidebar show-sidebar" : "sidebar"}>
-        <button type="button" className="close-btn">
+        <button type="button" className="close-btn" onClick={toggleSidebar}>
           <FaTimes />
         </button>
         <div className="side-container">
@@ -17,7 +16,11 @@ const Sidebar = () => {
             {pageLinks.map(link => {
               return (
                 <li key={link.id}>
-                  <Link to={link.url} className="sidebar-links">
+                  <Link
+                    to={link.url}
+                    className="sidebar-links"
+                    onClick={toggleSidebar}
+                  >
                     {link.text}
                   </Link>
                 </li>
